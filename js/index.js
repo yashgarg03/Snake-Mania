@@ -1,9 +1,9 @@
 // Game Constants & Variables
 let inputDir = {x: 0, y: 0}; 
-const foodSound = new Audio('../music/food.mp3');
-const gameOverSound = new Audio('../music/gameover.mp3');
-const moveSound = new Audio('../music/move.mp3');
-const musicSound = new Audio('../music/music.mp3');
+const foodSound = new Audio('/Snake-Mania/../music/food.mp3');
+const gameOverSound = new Audio('/Snake-Mania/../music/gameover.mp3');
+const moveSound = new Audio('/Snake-Mania/../music/move.mp3');
+const musicSound = new Audio('/Snake-Mania/../music/music.mp3');
 let speed = 15;
 let score = 0;
 let lastPaintTime = 0;
